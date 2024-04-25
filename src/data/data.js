@@ -56,3 +56,16 @@ const TheoryScrum= new Article (
     "Scrum Team is the fundamental unit of Scrum is a small team of people, a Scrum Team. The Scrum Team consists of one Scrum Master, one Product Owner, and Developers. Within a Scrum Team, there are no sub-teams or hierarchies. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal. Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Sprint.",
     "They are also self-managing, meaning they internally decide who does what, when, and how."
 )
+
+//PAR6
+const Roles= new Article (
+    "Team roles",
+    "INSERT_IMAGE",
+    "Scrum consists of a series of definitions, roles, meetings, and processes. Its key components include:",
+    "1. Product Owner: The product owner defines project requirements and collaborates with teams during the product development process.",
+    "2. Scrum Master: The Scrum master ensures that teams apply Scrum principles and processes correctly and provides support to remove obstacles.",
+    "3. Development Team: The development team creates and delivers the product. They complete a set of tasks during each Sprint (a specific period)",
+    "4. Sprint: A Sprint is a cycle of work performed over a specific period. Typically lasting 2-4 weeks, a Sprint focuses on developing a new functionality of the product.",
+    "5. Daily Standup: The daily standup is a short meeting where team members share their daily progress."
+)
+
