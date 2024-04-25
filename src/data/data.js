@@ -1,9 +1,12 @@
-function Article(title, image, content1, content2, content3 ) {
+function Article(title, image, content1, content2, content3, content4, content5, content6 ) {
     this.title=title,
     this.image=image,
     this.content1=content1,
     this.content2=content2,
-    this.content3=content3
+    this.content3=content3,
+    this.content4=content4,
+    this.content5=content5,
+    this.content6=content6
 }
 
 //PAR 1
@@ -40,7 +43,16 @@ const SixPrinciple= new Article (
     "1.Empirical Process Control - This principle emphasizes the core philosophy of Scrum based on the three main ideas of transparency, inspection, and adaptation. Empirical process control aids learning through experimentation, especially when the problem is not well defined or when there are no clear solutions",
     "2.Self-organization - This principle focuses on today’s workers, who deliver significantly greater value when self-organized, and this results in better team buy-in and shared ownership; and an innovative and creative environment which is more conducive for growth.",
     "3.Collaboration - This principle focuses on the three core dimensions related to collaborative work: awareness, articulation, and appropriation. It also advocates project delivery as a shared value-creation process with teams working and interacting together, as well as with the customer and other business stakeholders, to deliver the greatest value.",
-    "Value Based Prioritization - This principle highlights the focus of Scrum to deliver maximum business value, from early in the project and continuing throughout.",
-    "Time-boxing - This principle describes how time is considered a limiting constraint in Scrum and used to help effectively manage project planning and execution. Time-boxed elements in Scrum include Sprints, Daily Standup Meetings, Sprint Planning Meetings, Sprint Review Meetings, and Retrospect Sprint Meetings.",
-    "Iterative Development - This principle defines iterative development and emphasizes how to better manage changes and build products that satisfy customer needs. It also delineates the Product Owner’s and organization’s responsibilities related to iterative development"
+    "4.Value Based Prioritization - This principle highlights the focus of Scrum to deliver maximum business value, from early in the project and continuing throughout.",
+    "5.Time-boxing - This principle describes how time is considered a limiting constraint in Scrum and used to help effectively manage project planning and execution. Time-boxed elements in Scrum include Sprints, Daily Standup Meetings, Sprint Planning Meetings, Sprint Review Meetings, and Retrospect Sprint Meetings.",
+    "6.Iterative Development - This principle defines iterative development and emphasizes how to better manage changes and build products that satisfy customer needs. It also delineates the Product Owner’s and organization’s responsibilities related to iterative development"
+)
+
+//PAR5
+const TheoryScrum= new Article (
+    "Theory behind the Scrum Team",
+    "INSERT_IMAGE",
+    "The Scrum Team commits to achieving its goals and to supporting each other. Their primary focus is on the work of the Sprint to make the best possible progress toward these goals",
+    "Scrum Team is the fundamental unit of Scrum is a small team of people, a Scrum Team. The Scrum Team consists of one Scrum Master, one Product Owner, and Developers. Within a Scrum Team, there are no sub-teams or hierarchies. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal. Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Sprint.",
+    "They are also self-managing, meaning they internally decide who does what, when, and how."
 )
