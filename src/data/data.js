@@ -64,8 +64,28 @@ const Roles= new Article (
     "Scrum consists of a series of definitions, roles, meetings, and processes. Its key components include:",
     "1. Product Owner: The product owner defines project requirements and collaborates with teams during the product development process.",
     "2. Scrum Master: The Scrum master ensures that teams apply Scrum principles and processes correctly and provides support to remove obstacles.",
-    "3. Development Team: The development team creates and delivers the product. They complete a set of tasks during each Sprint (a specific period)",
-    "4. Sprint: A Sprint is a cycle of work performed over a specific period. Typically lasting 2-4 weeks, a Sprint focuses on developing a new functionality of the product.",
-    "5. Daily Standup: The daily standup is a short meeting where team members share their daily progress."
+    "3. Development Team: The development team creates and delivers the product. They complete a set of tasks during each Sprint (a specific period)"
+    
 )
 
+//PAR7
+const Events= new Article (
+    "Scrum events",
+    "INSERT_IMAGE",
+    "Scrum consists of a series of definitions, roles, meetings, and processes. Its key components include:",
+    "1. Sprint- A Sprint is a cycle of work performed over a specific period. Typically lasting 2-4 weeks, a Sprint focuses on developing a new functionality of the product.",
+    "2. Sprint Planning - The Sprint starts with a planning session in which the Developers plan the work they intend to do in the Sprint. This plan creates a shared understanding and alignment among the team.",
+    "3. Daily Scrum - The Developers meet daily to inspect their progress toward the Sprint Goal, discuss any challenges they’ve run into and tweak their plan for the next day as needed. ",
+    "4. Sprint Review- At the end of the Sprint, the Sprint Team meets with stakeholders to show what they have accomplished and get feedback.",
+    "5. Sprint Retrospective - Finally, the Scrum Team gets together to discuss how the Sprint went and if there are things they could do differently and improve in the next Sprint."
+)
+
+//PAR8
+const SprintEvents= new Article (
+    "The role of the sprint event",
+    "INSERT_IMAGE",
+    "As described in the Scrum Guide, Sprints are the heartbeat of Scrum, where ideas are turned into value",
+    "The Sprint is the Scrum event that encompasses all of the other Scrum events.",
+    "They are fixed length periods of work that last one month or less to create consistency and ensure short iterations for feedback in order to inspect and adapt both how work is done and what is being worked on. If cycles are longer, then the spirit of frequent feedback cycles can be lost",
+    "Longer Sprint may also get too complex and may increase risk. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review, and Sprint Retrospective, happen within Sprints."
+)
