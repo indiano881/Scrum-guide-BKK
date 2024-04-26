@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import { getImageURL } from "../../../utils/functions";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -11,9 +12,9 @@ const Header = () => {
     <header className="header-container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <a className="navbar-brand" href="#">
-          Navbar
+          <img className="mb-3" src={getImageURL("logo.png")} alt="Logo" width={80} />
         </a>
-        <div className=" w-100">
+        <div className="w-100">
           <button
             className="navbar-toggler"
             type="button"
