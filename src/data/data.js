@@ -17,7 +17,7 @@ function Article(
     (this.content3 = content3),
     (this.content4 = content4),
     (this.content5 = content5),
-    (this.content6 = content6),
+    (this.content6 = content6);
 }
 
 //PAR 1
