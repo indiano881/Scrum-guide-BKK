@@ -8,7 +8,7 @@ function Staff(name, image, title, phone, email) {
 
 const Davide= new Staff(
     "Davide Baldi",
-    "davide.jpg",
+    "davide.png",
     "Key account manager",
     "072-123 456 789",
     "davide@scrum.com"
@@ -16,7 +16,7 @@ const Davide= new Staff(
 
 const Bedir= new Staff(
     "Bedir Gömcez",
-    "davide.jpg",
+    "davide.png",
     "Head of Development",
     "072-123 456 789",
     "davide@scrum.com"
@@ -24,7 +24,7 @@ const Bedir= new Staff(
 
 const Carl= new Staff(
     "Carl Åberg",
-    "davide.jpg",
+    "davide.png",
     "CEO and Founder",
     "072-123 456 789",
     "davide@scrum.com"
@@ -32,7 +32,7 @@ const Carl= new Staff(
 
 const Shada= new Staff(
     "Shada Bazger",
-    "davide.jpg",
+    "davide.png",
     "HR manager",
     "072-123 456 789",
     "davide@scrum.com"
