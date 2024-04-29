@@ -1,8 +1,9 @@
 import styles from './Staff.module.css'
-
-const Staff = ({name, title, email, phone}) => {
+import { getImageURL } from '../../utils/functions';
+const Staff = ({name, image, title, email, phone}) => {
     return (
         <div className={styles.card}>
+          <img className={styles.imageStaff} src={getImageURL(image)} alt={name} width="80 px" height="auto"/>
           <h4>{name}</h4>
           <p>{title}</p>
           <p>{phone}</p>
