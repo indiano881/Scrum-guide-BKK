@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import styles from "./Scrum.module.css"
 
 import { getImageURL } from "../../utils/functions";
@@ -23,4 +24,17 @@ const Scrum = ({ title, content1, content2, content3, content4, content5, conten
   );
 };
 
+=======
+const Scrum = ({ title, content1, content2, content3, linkText }) => {
+  return (
+    <div id={linkText}>
+      <h3>{title}</h3>
+      <p>{content1}</p>
+      <p>{content2}</p>
+      <p>{content3}</p>
+    </div>
+  );
+};
+
+>>>>>>> eb8bf0f (added id to link in header)
 export default Scrum;
