@@ -11,7 +11,7 @@ function Article(
 ) {
   (this.title = title),
     (this.image = image),
-    (this.linkText = linkText);
+    (this.linkText = linkText),
     (this.content1 = content1),
     (this.content2 = content2),
     (this.content3 = content3),
