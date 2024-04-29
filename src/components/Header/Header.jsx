@@ -11,9 +11,12 @@ const Header = () => {
   return (
     <header className="header-container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <a className="navbar-brand" href="#">
-          <img className="mb-3" src={getImageURL("logo.png")} alt="Logo" width={80} />
-        </a>
+        <div className="logo-and-title">
+          <a className="navbar-brand" href="#">
+            <img className="mb-3" src={getImageURL("logo.png")} alt="Logo" width={80} />
+          </a>
+          <h1>Scrum Guide</h1>
+        </div>
         <div className="w-100">
           <button
             className="navbar-toggler"
