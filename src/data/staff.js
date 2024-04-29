@@ -11,7 +11,7 @@ const Davide= new Staff(
     "davide.png",
     "Key account manager",
     "072-123 456 789",
-    "davide@scrum.com"
+    "Davide@scrum.com"
 )
 
 const Bedir= new Staff(
@@ -19,7 +19,7 @@ const Bedir= new Staff(
     "davide.png",
     "Head of Development",
     "072-123 456 789",
-    "davide@scrum.com"
+    "Bedir@scrum.com"
 )
 
 const Carl= new Staff(
@@ -27,7 +27,7 @@ const Carl= new Staff(
     "davide.png",
     "CEO and Founder",
     "072-123 456 789",
-    "davide@scrum.com"
+    "Carl@scrum.com"
 )
 
 const Shada= new Staff(
@@ -35,7 +35,7 @@ const Shada= new Staff(
     "davide.png",
     "HR manager",
     "072-123 456 789",
-    "davide@scrum.com"
+    "Shada@scrum.com"
 )
 
 const staffArray= [Davide,Bedir,Shada,Carl];

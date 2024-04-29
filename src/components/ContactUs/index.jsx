@@ -8,7 +8,7 @@ const ContactUs = () => {
 
             <h3 className={styles.contactTitle}>Contact Us</h3>
                 <div>
-                    Our Team of expert
+                <h3 className={styles.contactTitle}>Our Team of Expert</h3>
                     <div className={styles.gridContainer}>
                         {staffArray.map((person, index)=> <Staff {...person} key={index}/>)}
                     </div>
