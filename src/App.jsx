@@ -2,7 +2,7 @@ import "./styles/global.css";
 import Header from "./components/Header/Header";
 import { getImageURL } from "../utils/functions.js";
 import Footer from "../src/components/Footer";
-
+import ContactUs from "./components/ContactUs/index.jsx";
 function App() {
   return (
     <>
@@ -12,6 +12,7 @@ function App() {
       <img src={getImageURL("logo.png")} alt="" />
       <h1>hello world</h1>
       <Footer />
+      <ContactUs />
     </>
   );
 }
