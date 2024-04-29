@@ -36,7 +36,7 @@ const Header = () => {
                   className={`nav-link ${activeLink === "home" ? "active" : ""}`}
                   onClick={() => handleLinkClick("home")}
                   aria-current="page"
-                  href="#"
+                  href="#home"
                 >
                   Home
                 </a>
@@ -45,7 +45,7 @@ const Header = () => {
                 <a
                   className={`nav-link ${activeLink === "principles" ? "active" : ""}`}
                   onClick={() => handleLinkClick("principles")}
-                  href="#"
+                  href="#sixPrinciple"
                 >
                   Principles
                 </a>
@@ -62,7 +62,7 @@ const Header = () => {
               <a
                 className={`nav-link ${activeLink === "contact" ? "active" : ""}`}
                 onClick={() => handleLinkClick("contact")}
-                href="#"
+                href="#contact"
               >
                 Contact
               </a>
