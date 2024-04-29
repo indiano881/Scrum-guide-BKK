@@ -1,0 +1,8 @@
+.container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.contactTitle {
+    font-size: 2rem;
+}
