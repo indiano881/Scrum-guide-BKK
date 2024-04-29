@@ -1,12 +1,13 @@
 import "./styles/global.css";
-import Header from "./components/Header/Header";
-import Footer from "../src/components/Footer";
-import ContactUs from "./components/ContactUs/index.jsx";
+import { getImageURL } from "../utils/functions.js";
 import Scrum from "./components/Scrum";
+import paragraphArray from "./data/data.js";
 import Office from "./components/Office/index.jsx";
+import ContactUs from "./components/ContactUs/index.jsx";
+import Footer from "../src/components/Footer";
+import Header from "./components/Header/Header";
 import Form from "./components/Form/index.jsx";
 import BackTop from "./components/BackTop";
-import paragraphArray from "./data/data.js";
 
 function App() {
   return (
