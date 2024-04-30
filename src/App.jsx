@@ -1,5 +1,7 @@
+import "./styles/global.css";
 import { getImageURL } from "../utils/functions.js";
 import ContactUs from "./components/ContactUs/index.jsx";
+
 function App() {
   return (
     <>
