@@ -1,7 +1,11 @@
-const Scrum = ({ title, content1, content2, content3, content4, content5, content6, linkText }) => {
+import { getImageURL } from "../../../utils/functions";
+
+
+const Scrum = ({ title, content1, content2, content3, content4, content5, content6, linkText, image }) => {
   return (
     <div id={linkText}>
       <h3>{title}</h3>
+      <img src={getImageURL(image)} alt={title} width={"250px"}/>
       <p>{content1}</p>
       <p>{content2}</p>
       <p>{content3}</p>
