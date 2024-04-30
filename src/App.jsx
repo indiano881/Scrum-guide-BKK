@@ -4,6 +4,7 @@ import { getImageURL } from "../utils/functions.js";
 import Footer from "../src/components/Footer";
 import ContactUs from "./components/ContactUs/index.jsx";
 import Scrum from "./components/Scrum";
+import BackTop from "./components/BackTop";
 import paragraphArray from "./data/data.js";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       ))}
       <ContactUs />
       <Footer />
+      <BackTop />
     </div>
   );
 }
