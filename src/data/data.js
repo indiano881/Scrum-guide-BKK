@@ -15,7 +15,7 @@ const Agile= new Article (
     "INSERT_IMAGE",
     "Agile methodologies are a set of methods and approaches in software development that prioritize flexibility, collaboration, and continuous improvement.",
     "They aim to adapt to rapidly changing requirements, incorporate customer feedback effectively, and enhance the software development process.",
-    "The goal of Agile is to respond better to changing requirements, evaluate customer feedback more effectively, and make the software development process more flexible and adaptable compared to traditional methods."
+    "The goal of Agile is to respond better to changing requirements, evaluate customer feedback more effectively, and make the software development process more flexible and adaptable compared to traditional methods."
 )
 
 //PAR2
@@ -90,5 +90,4 @@ const SprintEvents= new Article (
     "Longer Sprint may also get too complex and may increase risk. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review, and Sprint Retrospective, happen within Sprints."
 )
 
-// eslint-disable-next-line no-undef
 export default paragraphArray=[Agile, Scrum, OriginScrum, SixPrinciple, TheoryScrum, Roles, Events, SprintEvents];
