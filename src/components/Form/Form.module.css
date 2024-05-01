@@ -9,6 +9,9 @@
     flex-direction: column;
     align-items: center;
 }
+.container {
+    margin-bottom: 96px;
+}
 
 .input {
     font-size: 1.2rem;
