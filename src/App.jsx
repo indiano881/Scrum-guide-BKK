@@ -4,8 +4,9 @@ import Footer from "../src/components/Footer";
 import ContactUs from "./components/ContactUs/index.jsx";
 import Scrum from "./components/Scrum";
 import Office from "./components/Office/index.jsx";
-import paragraphArray from "./data/data.js";
+import Form from "./components/Form/index.jsx";
 
+import paragraphArray from "./data/data.js";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       ))}
       <ContactUs />
       <Office />
+      <Form />
       <Footer />
-    </div>
+    </>
   );
 }
 
