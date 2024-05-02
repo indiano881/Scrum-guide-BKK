@@ -51,11 +51,7 @@ const OriginScrum = new Article(
 //PAR4
 const SixPrinciple = new Article(
   "The 6 main principle",
-<<<<<<< HEAD
   "scrum2.jpeg",
-=======
-  "INSERT_IMAGE",
->>>>>>> 643ce42 (Added links text)
   "six-principle",
   "1.Empirical Process Control - This principle emphasizes the core philosophy of Scrum based on the three main ideas of transparency, inspection, and adaptation. Empirical process control aids learning through experimentation, especially when the problem is not well defined or when there are no clear solutions",
   "2.Self-organization - This principle focuses on today´s workers, who deliver significantly greater value when self-organized, and this results in better team buy-in and shared ownership; and an innovative and creative environment which is more conducive for growth.",
