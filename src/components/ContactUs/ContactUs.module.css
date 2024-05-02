@@ -1,0 +1,14 @@
+.container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.contactTitle {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
