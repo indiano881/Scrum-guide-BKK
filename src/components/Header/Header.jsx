@@ -45,7 +45,7 @@ const Header = () => {
                 <a
                   className={`nav-link ${activeLink === "principles" ? "active" : ""}`}
                   onClick={() => handleLinkClick("principles")}
-                  href="#sixPrinciple"
+                  href="#six-principle"
                 >
                   Principles
                 </a>
@@ -54,7 +54,7 @@ const Header = () => {
                 <a
                   className={`nav-link ${activeLink === "about-us" ? "active" : ""}`}
                   onClick={() => handleLinkClick("about-us")}
-                  href="#"
+                  href="#about-us"
                 >
                   About Us
                 </a>
