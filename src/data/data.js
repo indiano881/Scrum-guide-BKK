@@ -31,7 +31,7 @@ const Agile = new Article(
 //PAR2
 const Scrum = new Article(
   "What is Scrum?",
-  "scrum1.png",
+  "scrum1.jpg",
   "scrum",
   "Scrum is one of the Agile software development methodologies. It's used to handle requirements flexibly, continuously evaluate customer feedback, and make teams more efficient.",
   "Scrum consists of a series of definitions, roles, meetings, and processes.",
@@ -45,7 +45,7 @@ const OriginScrum = new Article(
   "originScrum",
   "The use of the term scrum in software development came from a 1986 Harvard Business Review paper titled -The New New Product Development Game- by Hirotaka Takeuchi and Ikujiro Nonaka. Based on case studies from manufacturing firms in the automotive, photocopier, and printer industries, the authors outlined a new approach to product development for increased speed and flexibility. ",
   "They called this the rugby approach, as the process involves a single cross-functional team operating across multiple overlapping phases, in which the team tries to go the distance as a unit, passing the ball back and forth",
-  "In the early 1990s, Ken Schwaber used what would become scrum at his company, Advanced Development Methods. Jeff Sutherland, John Scumniotales, and Jeff McKenna developed a similar approach at Easel Corporation, referring to the approach with the term scrum.[8] Sutherland and Schwaber later worked together to integrate their ideas into a single framework, formally known as scrum. Schwaber and Sutherland tested scrum and continually improved it, leading to the publication of a research paper in 1995,[9] and the Manifesto for Agile Software Development in 2001."
+  "In the early 1990s, Ken Schwaber used what would become scrum at his company, Advanced Development Methods. Jeff Sutherland, John Scumniotales, and Jeff McKenna developed a similar approach at Easel Corporation, referring to the approach with the term scrum. Sutherland and Schwaber later worked together to integrate their ideas into a single framework, formally known as scrum. Schwaber and Sutherland tested scrum and continually improved it, leading to the publication of a research paper in 1995, and the Manifesto for Agile Software Development in 2001."
 );
 
 //PAR4
@@ -54,17 +54,17 @@ const SixPrinciple = new Article(
   "scrum2.jpeg",
   "six-principle",
   "1.Empirical Process Control - This principle emphasizes the core philosophy of Scrum based on the three main ideas of transparency, inspection, and adaptation. Empirical process control aids learning through experimentation, especially when the problem is not well defined or when there are no clear solutions",
-  "2.Self-organization - This principle focuses on todayâ€™s workers, who deliver significantly greater value when self-organized, and this results in better team buy-in and shared ownership; and an innovative and creative environment which is more conducive for growth.",
+  "2.Self-organization - This principle focuses on today´s workers, who deliver significantly greater value when self-organized, and this results in better team buy-in and shared ownership; and an innovative and creative environment which is more conducive for growth.",
   "3.Collaboration - This principle focuses on the three core dimensions related to collaborative work: awareness, articulation, and appropriation. It also advocates project delivery as a shared value-creation process with teams working and interacting together, as well as with the customer and other business stakeholders, to deliver the greatest value.",
   "4.Value Based Prioritization - This principle highlights the focus of Scrum to deliver maximum business value, from early in the project and continuing throughout.",
   "5.Time-boxing - This principle describes how time is considered a limiting constraint in Scrum and used to help effectively manage project planning and execution. Time-boxed elements in Scrum include Sprints, Daily Standup Meetings, Sprint Planning Meetings, Sprint Review Meetings, and Retrospect Sprint Meetings.",
-  "6.Iterative Development - This principle defines iterative development and emphasizes how to better manage changes and build products that satisfy customer needs. It also delineates the Product Ownerâ€™s and organizationâ€™s responsibilities related to iterative development"
+  "6.Iterative Development - This principle defines iterative development and emphasizes how to better manage changes and build products that satisfy customer needs. It also delineates the Product Owner´s and organization´s responsibilities related to iterative development"
 );
 
 //PAR5
 const TheoryScrum = new Article(
   "Theory behind the Scrum Team",
-  "scrum3.jpg",
+  "scrum9.jpg",
   "theoryScrum",
   "The Scrum Team commits to achieving its goals and to supporting each other. Their primary focus is on the work of the Sprint to make the best possible progress toward these goals",
   "Scrum Team is the fundamental unit of Scrum is a small team of people, a Scrum Team. The Scrum Team consists of one Scrum Master, one Product Owner, and Developers. Within a Scrum Team, there are no sub-teams or hierarchies. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal. Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Sprint.",
@@ -85,7 +85,7 @@ const Roles = new Article(
 //PAR7
 const Events = new Article(
   "Scrum events",
-  "scrum3.jpg",
+  "scrum8.jpg",
   "events",
   "Scrum consists of a series of definitions, roles, meetings, and processes. Its key components include:",
   "1. Sprint- A Sprint is a cycle of work performed over a specific period. Typically lasting 2-4 weeks, a Sprint focuses on developing a new functionality of the product.",
