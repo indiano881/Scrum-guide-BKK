@@ -19,7 +19,7 @@ function App() {
       <Office />
       <Form />
       <Footer />
-    </>
+    </div>
   );
 }
 
