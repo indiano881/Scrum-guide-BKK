@@ -1,5 +1,5 @@
 import styles from './Form.module.css'
-import {getImageURL} from "../../../utils/functions"
+import {getImageURL} from "../../utils/functions"
 
 const Form = () => {
     return (

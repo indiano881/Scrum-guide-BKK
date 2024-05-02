@@ -1,6 +1,6 @@
 import styles from "./Scrum.module.css"
 
-import { getImageURL } from "../../../utils/functions";
+import { getImageURL } from "../../utils/functions";
 
 
 const Scrum = ({ title, content1, content2, content3, content4, content5, content6, linkText, image }) => {

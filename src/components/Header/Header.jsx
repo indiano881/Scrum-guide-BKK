@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
-import { getImageURL } from "../../../utils/functions";
+import { getImageURL } from "../../utils/functions";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("home");
