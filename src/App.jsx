@@ -7,8 +7,6 @@ import Office from "./components/Office/index.jsx";
 import Form from "./components/Form/index.jsx";
 
 import paragraphArray from "./data/data.js";
-import Office from "./components/Office/index.jsx";
-import Form from "./components/Form/index.jsx";
 
 function App() {
   return (
