@@ -100,10 +100,10 @@ const SprintEvents = new Article(
   "The role of the sprint event",
   "Sprint1.jpg",
   "sprintEvents",
-  "As described in theÂ Scrum Guide,Â SprintsÂ are theÂ heartbeat of Scrum, where ideas are turned into value",
+  "As described in the Scrum Guide,Sprints are the heartbeat of Scrum, where ideas are turned into value",
   "The Sprint is the Scrum event that encompasses all of the other Scrum events.",
   "They are fixed length periods of work that last one month or less to create consistency and ensure short iterations for feedback in order to inspect and adapt both how work is done and what is being worked on. If cycles are longer, then the spirit of frequent feedback cycles can be lost",
-  "Longer Sprint may also get too complex and may increase risk. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve theÂ Product Goal, includingÂ Sprint Planning,Â Daily Scrums,Â Sprint Review, andÂ Sprint Retrospective, happen within Sprints."
+  "Longer Sprint may also get too complex and may increase risk. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review, and Sprint Retrospective, happen within Sprints."
 );
 
 const paragraphArray = [
