@@ -12,7 +12,7 @@ const index = () => {
   return (
     <span onClick={scrollToTop} className={styles.backTop}>
       Back to Top{" "}
-      <span className={styles.arrow}>
+      <span onClick={scrollToTop} className={styles.arrow}>
         <FaAngleDoubleRight />
         <FaAngleDoubleRight />
         <FaAngleDoubleRight />
