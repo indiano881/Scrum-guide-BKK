@@ -12,13 +12,15 @@ function App() {
   return (
     <div id="home">
       <Header />
-      {paragraphArray.map((paragraph, index) => (
-        <Scrum key={index} {...paragraph} />
-      ))}
+      <div id="content-container">
+        {paragraphArray.map((paragraph, index) => (
+          <Scrum key={index} {...paragraph} />
+        ))}
 
-      <ContactUs />
-      <Office />
-      <Form />
+        <ContactUs />
+        <Office />
+        <Form />
+      </div>
       <Footer />
       <BackTop />
     </div>
