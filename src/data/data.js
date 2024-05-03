@@ -117,4 +117,3 @@ const paragraphArray = [
   SprintEvents,
 ];
 export default paragraphArray;
-

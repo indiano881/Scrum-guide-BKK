@@ -1,0 +1,40 @@
+.backTop {
+  display: flex;
+  width: 120px;
+  height: 60px;
+  transform: rotate(-90deg);
+  background-color: #5a7bf5;
+  color: #fff;
+  border: 2px solid #d3daef;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  position: fixed;
+  right: -20px;
+  bottom: 17%;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.backTop:hover {
+  font-size: 1.2rem;
+  background-color: #7490f4;
+}
+
+.arrow {
+  font-size: 1.5rem;
+}
+
+.arrow svg:nth-child(2) {
+  color: #ccd6f9;
+}
+
+.arrow svg:nth-child(3) {
+  color: #acbcf6;
+}
+
+.arrow svg:nth-child(4) {
+  color: #7692f6;
+}
