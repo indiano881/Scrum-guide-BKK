@@ -22,7 +22,7 @@ function App() {
       <Form />
       <Footer />
       <BackTop />
-    </>
+    </div>
 
   );
 }
