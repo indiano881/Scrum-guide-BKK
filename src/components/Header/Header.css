@@ -1,9 +1,12 @@
-.header-container {
-  /* background-color: #9fb2f7; */
-}
+/* .header-container {
+  position: relative !important;
+} */
 
 nav {
   padding-bottom: 0 !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .nav-link {
@@ -19,6 +22,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #9fb2f7 !important;
+  position: relative !important;
+}
+
+#sticky-navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  background-color: #a0b2f7;
 }
 
 .navbar-nav {
@@ -28,6 +39,10 @@ nav {
 .nav-link.active {
   background-color: #2753f294 !important;
   color: #fff !important;
+}
+
+.navbar-brand {
+  padding: 0;
 }
 
 .logo-and-title {
