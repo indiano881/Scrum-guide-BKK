@@ -37,15 +37,10 @@ const Form = () => {
           ></textarea>
           <button className={styles.button}>Send message</button>
         </form>
-        <img
-          className={styles.imageContact}
-          src={getImageURL("Contact-us.png")}
-          alt="contact us image"
-          width={"500px"}
-        />
+        <img className={styles.imageContact} src={getImageURL("Contact-us.png")} alt="contact us image" width={"500px"} height={"auto"}/>
       </div>
-    </>
-  );
+      </>
+    )
 };
 
 export default Form;
