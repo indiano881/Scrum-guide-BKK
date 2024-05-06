@@ -16,9 +16,9 @@ const Form = () => {
           <textarea className={styles.input} name="message" id="message" cols="30" rows="10" placeholder="Please write your message here..." required></textarea>
           <button className={styles.button}>Send message</button>
         </form>
-        <img className={styles.imageContact} src={getImageURL("Contact-us.png")} alt="contact us image" width={"500px"}/>
-        </div>
-        </>
+        <img className={styles.imageContact} src={getImageURL("Contact-us.png")} alt="contact us image" width={"500px"} height={"auto"}/>
+      </div>
+      </>
     )
 };
 

@@ -1,6 +1,9 @@
 .title {
     text-align: center;
     font-size: 2rem;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 8px 0 8px 0;
 }
 
 .container,
@@ -11,6 +14,7 @@
 }
 .container {
     margin-bottom: 96px;
+    background-color: aliceblue;
 }
 
 .input {
@@ -39,16 +43,19 @@
 
 .imageContact {
     display: none;
+    
 }
 
 @media screen and (min-width: 900px) {
     .container {
         flex-direction: row;
         justify-content: space-around;
+        
     }
 
     .imageContact {
         display: unset;
+        margin-bottom: 36px;
     }
 }
 
@@ -56,5 +63,6 @@
 
     .imageContact {
         width: 600px;
+
     }
 }
