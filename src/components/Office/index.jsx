@@ -1,5 +1,5 @@
 import styles from './Office.module.css'
-import {getImageURL} from "../../../utils/functions"
+import {getImageURL} from "../../utils/functions"
 
 const Office = () => {
 

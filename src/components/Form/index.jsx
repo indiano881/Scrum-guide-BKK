@@ -1,10 +1,10 @@
 import styles from './Form.module.css'
-import {getImageURL} from "../../../utils/functions"
+import {getImageURL} from "../../utils/functions"
 
 const Form = () => {
     return (
       <>
-      <h2 className={styles.title}>Contact Us</h2>
+      <h2 className={styles.title} id="contact">Contact Us</h2>
       <div className={styles.container}>
         
         <form className={styles.formContainer} action="mailto: scrum-bkk@gmail.com" method="POST" enctype="text/plain">
