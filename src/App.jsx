@@ -10,6 +10,7 @@ import paragraphArray from "./data/data.js";
 
 function App() {
   return (
+
     <div id="home">
       <Header />
       <div id="content-container">
@@ -24,6 +25,7 @@ function App() {
       <Footer />
       <BackTop />
     </div>
+
   );
 }
 
