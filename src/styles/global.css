@@ -2,7 +2,16 @@ h1 {
   font-family: "Open Sans";
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   padding: 0 0 8% 0;
   position: relative;
+  height: 100%;
+}
+
+#content-container {
+  padding: 0 5%;
 }

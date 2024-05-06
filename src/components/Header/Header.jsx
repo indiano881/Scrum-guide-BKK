@@ -8,12 +8,13 @@ const Header = () => {
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
+
   return (
-    <header className="header-container">
+    <header id="sticky-navbar" className="header-container">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="logo-and-title">
           <a className="navbar-brand" href="#">
-            <img className="mb-3" src={getImageURL("logo.png")} alt="Logo" width={80} />
+            <img className="" src={getImageURL("logo.png")} alt="Logo" width={80} />
           </a>
           <h1>Scrum Guide</h1>
         </div>

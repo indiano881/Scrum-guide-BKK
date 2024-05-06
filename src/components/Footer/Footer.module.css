@@ -1,31 +1,29 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #9FB2F7;
-    color: white;
-    
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9fb2f7;
+  color: white;
 }
 
 footer ul {
-    width: fit-content;
-    text-align: end;
-    padding: 12px;
+  width: fit-content;
+  text-align: end;
+  padding: 12px;
 }
 
 .copyright {
-    padding: 12px;
-    font-size: 0.75em;
+  padding: 12px;
+  font-size: 0.75em;
 }
 
 footer ul a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 @media (max-width: 600px) {
-    footer ul i{
-        padding: 4px;
-    }
+  footer ul i {
+    padding: 4px;
+  }
 }
