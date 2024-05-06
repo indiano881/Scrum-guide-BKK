@@ -11,6 +11,7 @@ import paragraphArray from "./data/data.js";
 
 function App() {
   return (
+
     <div id="home">
       <Header />
       {paragraphArray.map((paragraph, index) => (
