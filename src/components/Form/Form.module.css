@@ -71,6 +71,6 @@
 
 @media screen and (max-width: 786px) {
   .title {
-    margin-top: 60px;
+    padding: 30px;
   }
 }
