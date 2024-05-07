@@ -25,7 +25,8 @@ const Agile = new Article(
   "agile",
   "Agile methodologies are a set of methods and approaches in software development that prioritize flexibility, collaboration, and continuous improvement.",
   "They aim to adapt to rapidly changing requirements, incorporate customer feedback effectively, and enhance the software development process.",
-  "The goal of Agile is to respond better to changing requirements, evaluate customer feedback more effectively, and make the software development process more flexible and adaptable compared to traditional methods."
+  "The goal of Agile is to respond better to changing requirements, evaluate customer feedback more effectively, and make the software development process more flexible and adaptable compared to traditional methods.",
+  "The agile-based practice includes improve and discovery solutions through the collaborative effort of self-organizing and cross-functional teams."
 );
 
 //PAR2
