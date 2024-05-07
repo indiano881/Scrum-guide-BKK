@@ -1,68 +1,76 @@
 .title {
-    text-align: center;
-    font-size: 2rem;
-    background-color: aliceblue;
-    margin: 0;
-    padding: 8px 0 8px 0;
+  text-align: center;
+  font-size: 2rem;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 8px 0 8px 0;
 }
 
 .container,
 .formContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container {
-    margin-bottom: 96px;
-    background-color: aliceblue;
+  margin-bottom: 96px;
+  background-color: aliceblue;
 }
 
 .input {
-    font-size: 1.2rem;
-    margin: 12px;
-    border-radius: 8px;
-    padding: 8px;
+  font-size: 1.2rem;
+  margin: 12px;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .label {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .button {
-    background-color: #9fb2f7;
-    cursor: pointer;
-    margin-bottom: 150px;
-    font-size: 1.2rem;
-    border-radius: 8px;
-    padding: 8px;
+  background-color: #9fb2f7;
+  cursor: pointer;
+  margin-bottom: 150px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  padding: 8px;
 }
 .button:hover {
-    background-color: #4d70ec;
-    cursor: pointer;
+  background-color: #4d70ec;
+  cursor: pointer;
 }
 
 .imageContact {
-    display: none;
-    
+  display: none;
+}
+
+.contactUsLinkTag {
+  display: block;
+  padding-bottom: 95px;
+  background-color: #eff8ff;
 }
 
 @media screen and (min-width: 900px) {
-    .container {
-        flex-direction: row;
-        justify-content: space-around;
-        
-    }
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    .imageContact {
-        display: unset;
-        margin-bottom: 36px;
-    }
+  .imageContact {
+    display: unset;
+    margin-bottom: 36px;
+  }
 }
 
 @media screen and (min-width: 1100px) {
+  .imageContact {
+    width: 600px;
+  }
+}
 
-    .imageContact {
-        width: 600px;
-
-    }
+@media screen and (max-width: 786px) {
+  .title {
+    padding: 30px;
+  }
 }
