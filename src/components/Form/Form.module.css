@@ -45,6 +45,15 @@
   display: none;
 }
 
+<<<<<<< HEAD
+=======
+.contactUsLinkTag {
+  display: block;
+  padding-bottom: 95px;
+  background-color: #eff8ff;
+}
+
+>>>>>>> bc28199 (Fixed bg color bug again in contact us)
 @media screen and (min-width: 900px) {
   .container {
     flex-direction: row;
