@@ -4,7 +4,8 @@ import staffArray from "../../data/staff";
 const ContactUs = () => {
   return (
     <>
-      <div id="about-us" className={styles.container}>
+      <span id="about-us" className={styles.aboutUsLinkTag}></span>
+      <div className={styles.container}>
         <h3 className={styles.contactTitle}>About Us</h3>
         <div>
           <h3 className={styles.contactTitle}>Our Team of Expert</h3>
