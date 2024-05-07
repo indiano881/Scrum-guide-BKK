@@ -1,10 +1,11 @@
-import styles from './Form.module.css'
-import {getImageURL} from "../../utils/functions"
+import styles from "./Form.module.css";
+import { getImageURL } from "../../utils/functions";
 
 const Form = () => {
-    return (
-      <>
-      <h2 className={styles.title} id="contact">Contact Us</h2>
+  return (
+    <>
+      <span id="contact" className={styles.contactUsLinkTag}></span>
+      <h2 className={styles.title}>Contact Us</h2>
       <div className={styles.container}>
         <form
           className={styles.formContainer}
@@ -37,10 +38,16 @@ const Form = () => {
           ></textarea>
           <button className={styles.button}>Send message</button>
         </form>
-        <img className={styles.imageContact} src={getImageURL("Contact-us.png")} alt="contact us image" width={"500px"} height={"auto"}/>
+        <img
+          className={styles.imageContact}
+          src={getImageURL("Contact-us.png")}
+          alt="contact us image"
+          width={"500px"}
+          height={"auto"}
+        />
       </div>
-      </>
-    )
+    </>
+  );
 };
 
 export default Form;

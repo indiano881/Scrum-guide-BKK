@@ -63,3 +63,9 @@ nav {
     margin-left: 8px;
   }
 }
+
+@media screen and (max-width: 786px) {
+  .logo-img {
+    width: 50px;
+  }
+}
