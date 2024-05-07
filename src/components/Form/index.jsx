@@ -4,9 +4,8 @@ import { getImageURL } from "../../utils/functions";
 const Form = () => {
   return (
     <>
-      <h2 className={styles.title} id="contact">
-        Contact Us
-      </h2>
+      <span id="contact" className={styles.contactUsLinkTag}></span>
+      <h2 className={styles.title}>Contact Us</h2>
       <div className={styles.container}>
         <form
           className={styles.formContainer}

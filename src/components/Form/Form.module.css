@@ -45,6 +45,12 @@
   display: none;
 }
 
+.contactUsLinkTag {
+  display: block;
+  padding-bottom: 95px;
+  background-color: #eff8ff;
+}
+
 @media screen and (min-width: 900px) {
   .container {
     flex-direction: row;

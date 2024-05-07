@@ -10,7 +10,6 @@ import BackTop from "./components/BackTop";
 
 function App() {
   return (
-
     <div id="home">
       <Header />
       <div id="content-container">
@@ -25,7 +24,6 @@ function App() {
       <Footer />
       <BackTop />
     </div>
-
   );
 }
 
