@@ -1,0 +1,88 @@
+.sidebar {
+    position: fixed;
+    z-index: 999;
+    margin-bottom: 25px;
+}
+
+.sidebarContainer {
+    position: sticky;
+    top: 140px;
+    background-color: #a0b2f7;
+    border-radius: 10px;
+    padding: 10px 0 10px;
+}
+
+
+
+.sidebarContainerContent {
+align-items: center; 
+border-radius: 10px; 
+color: #fff; 
+padding: 4px;
+}
+
+.SidebarButton {
+    padding: 0.5rem; 
+    border-radius: 30px; 
+    background-color: #fff; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+}
+
+
+.SidebarAnimationButton {
+    display: flex; 
+    column-gap: 0.5rem; 
+    align-items: center; 
+    transition-property: all;
+}
+
+.containerContent {
+    display: flex; 
+    padding: 1rem; 
+    align-items: flex-start; 
+}
+
+.containerContentExtra {
+    display: flex; 
+padding: 1rem; 
+margin-top: 2.5rem; 
+flex-direction: column; 
+gap: 3.5rem; 
+}
+
+.navItem {
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    color: #3B82F6; 
+}
+
+.navItemContainer {
+    padding: 0.5rem; 
+margin-top: 1rem; 
+border-radius: 9999px; 
+background-color: #ffffff; 
+transition-property: all;
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    padding:0 20px 0;
+}
+
+@media screen and (max-height: 450px) {
+    .ul{
+        height: 80px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .ContainerContentExtra{
+        height: 200px;
+        overflow: scroll;
+    }
+}
