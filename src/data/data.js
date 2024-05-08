@@ -28,7 +28,8 @@ const Agile = new Article(
   "agile",
   "Agile methodologies are a set of methods and approaches in software development that prioritize flexibility, collaboration, and continuous improvement.",
   "They aim to adapt to rapidly changing requirements, incorporate customer feedback effectively, and enhance the software development process.",
-  "The goal of Agile is to respond better to changing requirements, evaluate customer feedback more effectively, and make the software development process more flexible and adaptable compared to traditional methods."
+  "The goal of Agile is to respond better to changing requirements, evaluate customer feedback more effectively, and make the software development process more flexible and adaptable compared to traditional methods.",
+  "The agile-based practice includes improve and discovery solutions through the collaborative effort of self-organizing and cross-functional teams."
 );
 
 //PAR2
@@ -48,7 +49,8 @@ const OriginScrum = new Article(
   "originScrum",
   "The use of the term scrum in software development came from a 1986 Harvard Business Review paper titled -The New New Product Development Game- by Hirotaka Takeuchi and Ikujiro Nonaka. Based on case studies from manufacturing firms in the automotive, photocopier, and printer industries, the authors outlined a new approach to product development for increased speed and flexibility. ",
   "They called this the rugby approach, as the process involves a single cross-functional team operating across multiple overlapping phases, in which the team tries to go the distance as a unit, passing the ball back and forth",
-  "In the early 1990s, Ken Schwaber used what would become scrum at his company, Advanced Development Methods. Jeff Sutherland, John Scumniotales, and Jeff McKenna developed a similar approach at Easel Corporation, referring to the approach with the term scrum. Sutherland and Schwaber later worked together to integrate their ideas into a single framework, formally known as scrum. Schwaber and Sutherland tested scrum and continually improved it, leading to the publication of a research paper in 1995, and the Manifesto for Agile Software Development in 2001."
+  "In the early 1990s, Ken Schwaber used what would become scrum at his company, Advanced Development Methods. Jeff Sutherland, John Scumniotales, and Jeff McKenna developed a similar approach at Easel Corporation, referring to the approach with the term scrum. Sutherland and Schwaber later worked together to integrate their ideas into a single framework, formally known as scrum. Schwaber and Sutherland tested scrum and continually improved it, leading to the publication of a research paper in 1995, and the Manifesto for Agile Software Development in 2001.",
+  "Nowadays Agile metodology and in particular Scrum are widely use in sectors also distant from IT. This is due nfor the incredible positive result it obtained during his history."
 );
 
 //PAR4

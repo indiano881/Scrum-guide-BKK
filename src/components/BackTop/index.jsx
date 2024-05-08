@@ -11,12 +11,16 @@ const index = () => {
   };
   return (
     <span onClick={scrollToTop} className={styles.backTop}>
-      Back to Top{" "}
+      <span>
+        Back<span className={styles.toTop}>to Top</span>{" "}
+      </span>
       <span onClick={scrollToTop} className={styles.arrow}>
         <FaAngleDoubleRight />
         <FaAngleDoubleRight />
         <FaAngleDoubleRight />
-        <FaAngleDoubleRight />
+        <span className={styles.mobileNone}>
+          <FaAngleDoubleRight />
+        </span>
       </span>
     </span>
   );

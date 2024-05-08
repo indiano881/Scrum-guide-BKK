@@ -38,3 +38,15 @@
 .arrow svg:nth-child(4) {
   color: #7692f6;
 }
+
+@media screen and (max-width: 786px) {
+  .mobileNone,
+  .toTop {
+    display: none;
+  }
+  .backTop {
+    width: 96px;
+    right: -12px;
+    bottom: 7%;
+  }
+}
