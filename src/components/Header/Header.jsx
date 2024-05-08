@@ -14,7 +14,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="logo-and-title">
           <a className="navbar-brand" href="#">
-            <img className="" src={getImageURL("logo.png")} alt="Logo" width={80} />
+            <img className="logo-img" src={getImageURL("logo.png")} alt="Logo" width={80} />
           </a>
           <h1>Scrum Guide</h1>
         </div>
