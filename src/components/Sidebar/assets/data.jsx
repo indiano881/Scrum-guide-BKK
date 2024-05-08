@@ -6,7 +6,7 @@ export const navItem = [
         id: 1,
         icon: <FaHouseCircleCheck className={styles.navItem}/>,
         title: 'What is Agile Project Metodology? ',
-        link: "#agile"
+        link: "#home"
     },
     {
         id: 2,
