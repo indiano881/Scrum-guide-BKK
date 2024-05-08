@@ -1,14 +1,15 @@
-FROM node:20
+FROM node:22
 
-WORKDIR /scrum-guide-bkk
+WORKDIR /app
 
-COPY src/ /scrum-guide-bkk/src
-COPY package.json /scrum-guide-bkk
+COPY package.json .
 
 RUN npm install
 
 COPY . .
 
+RUN npm run build
+
 EXPOSE 5173
 
-CMD ["npm", "start"]
+CMD [ "npm", "run", "preview" ]
