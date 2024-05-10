@@ -74,7 +74,7 @@ ul {
 }
 
 @media screen and (max-height: 450px) {
-    .ul{
+    .ContainerContentExtra{
         height: 80px;
         overflow: scroll;
     }
