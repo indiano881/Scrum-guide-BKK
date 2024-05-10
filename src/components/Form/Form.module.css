@@ -68,7 +68,6 @@
     width: 600px;
   }
 }
-
 @media screen and (max-width: 786px) {
   .title {
     padding: 30px;
